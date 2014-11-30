@@ -1,7 +1,7 @@
 package main
 import (
 	"fmt"
-	"rational"
+	"github.com/u283/rational"
 )
 
 func main() {
