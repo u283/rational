@@ -13,7 +13,7 @@ func Reduce(a Rational) Rational {
 		min = a.Den
 	}
 	
-	var maxdivider int
+	var maxdivider = 1
 	for i := min; i > 1; i-- {
 		if ((a.Num % i) == 0) && ((a.Den % i) == 0) {
 			maxdivider = i
